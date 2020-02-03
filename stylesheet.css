@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body {
+  background: #efefef;
+}
+
+img {
+  display: none;
+}
+
+.main {
+  position: relative;
+}
+
+.birthday {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #DA8E00;
+  background: -webkit-linear-gradient(-45deg, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03, #DA8E00, #EDAC06, #F7DE05, #ECB802, #EDAC06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-family: serif;
+  font-size: 60px;
+}
+
+.anpan {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 200px;
+  height: 340px;
+}
+
+.baikin {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  width: 200px;
+  height: 340px;
+}
+
+#btn {
+  background-image: url('gift.png');
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  margin: 30px auto 0;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 0 10px 0 #dcdcdc;
+  border: 3px solid #fff;
+  user-select: none;
+}
+
+#btn:hover {
+  opacity: 1;
+}

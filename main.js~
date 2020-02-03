@@ -1,9 +1,0 @@
-$(function() {
-  $('#btn').click(function() {
-    $('#btn').fadeOut(1000);
-    $('h1').fadeIn(2000);
-    $('#image').fadeIn(2000);
-  });
-});
-
-

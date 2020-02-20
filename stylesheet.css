@@ -3,6 +3,14 @@
 body {
   background: #efefef;
 }
+.header {
+  text-align: center;
+}
+
+p {
+  font-size: 40px;
+  color: #4169e1;
+}
 
 img {
   display: none;
